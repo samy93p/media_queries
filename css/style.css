@@ -1,0 +1,22 @@
+.zone_adaptative {
+	width: 100%;
+	background-color: red;
+	height: 80px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+	.zone_adaptative {
+		background-color: rgb(255, 0, 225);
+	}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1400px) {
+	.zone_adaptative {
+		background-color: blue;
+	}
+}
+@media only screen and (min-width: 1440px) {
+	.zone_adaptative {
+		background-color: green;
+	}
+}
